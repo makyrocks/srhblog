@@ -1,0 +1,10 @@
+cordova plugin add cordova-plugin-inappbrowser
+
+cordova plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git
+
+
+cordova plugin add https://github.com/tomloprod/cordova-plugin-appminimize.git
+
+
+
+
