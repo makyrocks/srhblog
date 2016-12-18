@@ -1,0 +1,27 @@
+/* Empty. Add your own CSS if you like */
+
+.appBg {
+	background-color: #AED581;
+}
+
+.center-icon {
+	background: #AED581 !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100% !important;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+}
+
+.bar-custom-green
+{
+	background: #9CCC65 !important;
+}
+
+.bar-custom-menu
+{
+	background: #009688 !important;
+}

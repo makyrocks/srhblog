@@ -1,0 +1,41 @@
+<ion-view view-title="SRH Blogs" ng-init="initial()">
+  <ion-content>
+
+  <div class="list card" ng-repeat="blog in blogs" style="box-shadow: 1px 1px 10px 1px #9CCC65;">
+
+  <div class="item item-icon-left item-text-wrap">
+    <i class="icon ion-university balanced" style="font-size:35px;"></i>
+    <h2>{{blog.title}}</h2>
+    <p>{{blog.pubdate}}</p>
+  </div>
+
+  <div class="item item-body">
+    <i class="icon calm" style="font-size:30px;">{{blog.report}}</i>
+    <p>
+      {{blog.snippet}}
+    </p>
+    <p style="text-align:right;"><b>- {{blog.author}}</b></p>
+    <br><br>
+  </div>
+
+  <div class="tabs tabs-icon-top">
+  <a class="tab-item" ng-click="bookMark(blog)">
+    <i class="icon ion-bookmark energized"></i>
+    Bookmark
+  </a>
+  <a class="tab-item" ng-click="browse(blog.link)">
+    <i class="icon ion-link royal"></i>
+    Read full report
+  </a>
+  
+  <a class="tab-item" ng-click="social(blog.link)">
+    <i class="icon ion-android-share-alt balanced"></i>
+    Share
+  </a>
+
+</div>
+  
+</div>
+
+  </ion-content>
+</ion-view>

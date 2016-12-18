@@ -1,0 +1,56 @@
+<ion-view>
+
+<ion-content scroll="false">
+
+<div class="center-icon row row-center">
+<div class="col col-center">
+
+<div class="row">
+<div class="col">
+    <i class="icon ion-university light" style="font-size:150px;" id="SRHlogo"></i>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+<i class="icon light" style="font-size:60px;">SRH Blogs</i>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+<div class="list card">
+
+<label class="item item-input">
+    <span class="input-label">Email</span>
+    <input type="email" ng-model="creds.email" placeholder="Email">
+  </label>
+
+  <label class="item item-input">
+    <span class="input-label">Password</span>
+    <input type="password" ng-model="creds.password" placeholder="Password">
+  </label>
+
+  <div class="item">
+  
+  <div class="row">
+  <div class="col">
+  <button class="button-block button button-balanced" ng-disabled="!creds.email || !creds.password" ng-click="login(creds)">Login</button>
+  <button class="button-block button button-clear button-assertive" ng-click="forgot()">forgot password?</button>
+   <button class="button-block button button-clear button-royal" ng-click="register()">Sign up for a new account!</button>
+  </div>
+  </div>
+
+ </div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+</ion-content>
+</ion-view>
